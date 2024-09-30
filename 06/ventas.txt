@@ -1,0 +1,2 @@
+Colgate,10,1.12
+Hisopos,100,0.90
