@@ -18,13 +18,13 @@ def crear_lista_numerica():
 
 def pillar_mediana(nums):
     nums.sort()
-    half_index = len(nums)//2
-    print(half_index)
     if(len(nums)%2==0):
+        half_index = len(nums)//2-1
         next_half_index = half_index+1
         values = [nums[half_index],nums[next_half_index]]
         return sum(values)/2
     else:
+        half_index = len(nums)//2
         return nums[half_index]
     
 
